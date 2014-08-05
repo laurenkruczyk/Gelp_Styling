@@ -1,4 +1,27 @@
 
+.breadcrumbs {
+  overflow: hidden !important;
+  position: fixed;
+  height:7%;
+  width:100%;
+  }
+
+.breadcrumbs li {
+  margin-bottom:5%;
+  }
+
+ .row {
+  padding-top: 6%;
+  padding-bottom:4%;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+
+.style {
+  margin-bottom: 13%;
+}
+
 a:hover {
   color:#0000FF;
   text-decoration:none;
@@ -23,32 +46,27 @@ a:active {
   font-size:40px;
   font-style:italic;
   color:#676781 ;
-  margin-top: 15px; 
-  margin-left: 20px;
+  margin-top: 2%; 
+  margin-left: 4%;
+  margin-right: 40%;
   font-family: "Trebuchet MS"
 }
 
  .image {
-  float: right;
-  position: absolute;
-  right: 250px;
-  top: 135px;
+  float:right;
+  position:absolute;
+  top:20%;
+  left:67%;
   }
 
   .rubygems {
   float: right;
-  position: absolute;
-  right: 250px;
-  top: 200px;
+  position: relative;
+  right: 15%;
+  padding-top:15%;
+  padding-left:15%;
  }
 
-/* .column {
-  float: right;
-  position: absolute;
-  left: 730px;
-  top: 600px;
-  bottom:0;
-}*/
 
 #footer {
   background: url("footer.png");
